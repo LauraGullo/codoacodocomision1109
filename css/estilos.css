@@ -6,3 +6,41 @@ body{
 h1,h2{
     text-align: center;
 }
+header{
+    background-image: url('../img/recetas.jpg');
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+article{
+    background: linear-gradient(rgba(255, 0, 149, 0.527), rgba(133, 7, 122, 0.308));
+    width: 90%;
+    margin-left: 5%;
+}
+
+article#pizzaCasera{
+    background: rgba(255, 105, 180, 0.575);
+}
+nav ol li{
+    display: inline;
+    margin: 0px 10px;
+    color: white;
+    padding: 50px;
+}
+
+nav ol li a{
+    color: white;
+}
+
+nav ol li :hover{
+    color: turquoise;
+    background: rgba(255, 105, 180, 0.295);
+}
+
