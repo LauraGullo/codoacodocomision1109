@@ -1,23 +1,21 @@
 #justify{
 display: flex;
-justify-content: center;
+justify-content: space-between;
 }
 
 .primer{
-/* width: 100px;
-height: 150px; */
+ width: 100px;
 background-color: blueviolet;
 float: left;
 }
 
 .primer:after{
-content: "despues del contenido";
+content: "Despues del contenido";
 color: burlywood;
-font-size: 20px;
 }
 
 .primer::before{
-    content: "antes del contenido ";
+    content: "Antes del contenido ";
     color: cornsilk;
 }
 
