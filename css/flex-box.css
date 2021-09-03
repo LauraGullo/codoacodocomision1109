@@ -1,0 +1,27 @@
+#justify{
+display: flex;
+justify-content: center;
+}
+
+.primer{
+/* width: 100px;
+height: 150px; */
+background-color: blueviolet;
+float: left;
+}
+
+.primer:after{
+content: "despues del contenido";
+color: burlywood;
+font-size: 20px;
+}
+
+.primer::before{
+    content: "antes del contenido ";
+    color: cornsilk;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
