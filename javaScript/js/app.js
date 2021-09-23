@@ -1,4 +1,4 @@
-    // alert ("hola mundo")
+    alert ("hola mundo")
     console.log("estamos en la consola")
     let nombre="Laura"
     var numero= 10
@@ -38,3 +38,34 @@
     let elemento =document.getElementById("principal")    
     console.log(elemento)
     elemento.innerHTML="<h1> saludar</h1>";
+    document.write("<div class='container'><div class='row' id='principal' ")
+    document.write()
+
+    let mensaje =prompt("mensaje");
+    let mensaje2 =prompt("menu \n  1_papas n\ 2_milanesas")
+
+    switch (mensaje2){
+        case "1":
+            elemento.innerHTML="<p>Disfruta de  tus papas</p>"
+        break
+        case "2":
+            elemento.innerHTML="<p>Disfruta de tus milanesas</p>"
+        break
+        default:
+            elemento.innerHTML="<p>No es opcion valida</p>"
+        break
+    }
+    let num = parseInt(prompt ("ingrese el primer numero"))
+    let num2 = parseInt(prompt ("ingrese segundo numero"))
+
+    let resultado=("<p>resultado de "+num + " + " +num2+" es "+(num+num2))
+    elemento.innerHTML=resultado
+
+
+
+
+
+
+
+
+
