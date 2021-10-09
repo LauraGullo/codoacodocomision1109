@@ -1,9 +1,3 @@
-
-.navbar-nav.navbar-center {
-    position: absolute;
-    right: 7%;
-}
-
 .card-img{
     filter: opacity(50%);
     width: 100%;
@@ -20,14 +14,9 @@
     position: absolute;
 }
 
-
-#Comprar-tickets{
-    background-color: rgb(50, 153, 81);
-}
-
-#enviar{
-    background-color: rgb(123, 196, 63);
-    color: white;
+.navbar-nav.navbar-center {
+    position: absolute;
+    right: 7%;
 }
 
 #pie-de-pagina{
@@ -41,5 +30,24 @@ a{
     text-decoration: none;
     color: white;
 }
+
+#comprar-tickets{
+    background-color: rgb(47, 184, 88);
+}
+
+#enviar{
+    background-color: rgb(123, 196, 63);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
