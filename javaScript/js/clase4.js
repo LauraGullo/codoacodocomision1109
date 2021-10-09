@@ -31,7 +31,7 @@ let usuario={    //objeto
     pass: "123456",
     validar:(e, p )=>{  //metodo
         if (e===usuario.email && p===usuario.pass){
-            return true;
+            return true
         }else{
             return false
         }
