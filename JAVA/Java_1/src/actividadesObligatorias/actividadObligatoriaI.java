@@ -19,7 +19,7 @@ public class actividadObligatoriaI {
 		System.out.println("Ingrese el sistema operativo que utiliza");
 		String sistemaOperativo=scanner.next();
 		
-		System.out.println(" Nombre: "+nombre+"\n Apellido: "+apellido +"\n Edad: "+edad+"\n Editor de texto: "+editorTexto+
+		System.out.println(" Nombre: "+nombre+"\n Apellido: "+apellido +"\n Edad: "+edad+"\n Hobbie: "+hobbie+"\n Editor de texto: "+editorTexto+
 							"\n Sistema Operativo: "+sistemaOperativo); 
 		
 	
